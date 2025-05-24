@@ -1,0 +1,22 @@
+@font-face{
+    src: url(fonts/BebasNeue-Regular.ttf);
+    font-family: Bebas;
+}
+@font-face{
+    src: url(fonts/SourceCodePro-Black.ttf);
+    font-family: Code;
+
+}
+
+
+h1{
+    /*always add a fallback font incase some devices dont allow font. Use web safe font for fall back*/
+    font-family: Bebas, verdana, arial;
+    font-style: italic
+}
+p{
+    font-family: Code,"lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+}
