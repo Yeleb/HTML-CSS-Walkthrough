@@ -1,0 +1,15 @@
+
+body{
+    border: 5px solid;
+    display: flow-root;
+    background-color: slateblue;
+}
+#img1{
+    float:left;
+    margin-right: 10px;
+    margin-top: -15px;
+}
+#img2{
+    float:right;
+    margin-left:10px;
+}
