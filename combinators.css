@@ -1,0 +1,23 @@
+#container{
+    border: 2px solid;
+
+}
+/* decendants */
+#container p{
+    background-color: yellow;
+}
+/* childs */
+#container > P{
+    background-color: rgb(255, 0, 0);
+    width: 50%;
+}
+/* siblings */
+#container ~ P{
+    background-color: rgb(69, 221, 55);
+    width: 50%;
+}
+/* Adjacent Siblings */
+#container + p{
+    background-color: rgb(126, 126, 236);
+
+}
