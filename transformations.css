@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+
+    transform: translate(50px, -30px);
+    transform: rotateX(180deg);
+    transform: scaleX(-3);
+    transform: scaleY(1.4);
+    transform: skewX(45deg);
+    transform: skewY(30deg);
+}
+#box1{
+    background-color: green;
+}
+#box2{
+    background-color: rgb(95, 71, 180);
+}
+#box3{
+    background-color: rgb(212, 255, 0);
+}
+img{
+    transform: translateX(100%) rotateZ(180deg) scaleX(2);
+}
