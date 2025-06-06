@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+img{
+    width: 250px;
+    border: 5px solid white;
+    animation-name: glow;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 13em;
+    text-align: center;
+    animation-name: glow;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes slideLeft{
+    from{
+        transform: translateX(300%)
+    }
+}
+@keyframes slideRight{
+    to{
+        transform: translateX(300%)
+    }
+}
+@keyframes slideUp{
+    from{
+        transform: translateY(300%)
+    }
+}
+@keyframes slideDown{
+    to{
+        transform: translateY(300%)
+    }
+}
+@KeyFrames rotate{
+    50%{
+        transform: rotateX(360deg)
+    }
+}
+@keyframes grow{
+    50%{
+        transform: scale(2, 2)
+    }
+}
+@keyframes shrink{
+    50%{
+        transform: scale(0.5,0.5)
+    }
+}
+@keyframes fade{
+    50%{
+        opacity: 0;
+    }
+}
+@keyframes colorChange{
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: orange;
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: green;
+    }
+    80%{
+        background-color: blue;
+    }
+    100%{
+        background-color: violet;
+    }
+}
+@keyframes glow{
+    100%{
+        box-shadow: 0px 0px 50px yellow;
+    }
+}
