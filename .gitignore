@@ -1,0 +1,17 @@
+.DS_Store
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.vscode/
+
+*.log
+*.tmp
+*.bak
+*.swp
+
+node_modules/
+
+dist/
+build/
